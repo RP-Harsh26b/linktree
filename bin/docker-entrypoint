@@ -1,8 +1,11 @@
-#!/bin/bash -e
-
-# If running the rails server then create or migrate existing database
-if [ "${1}" == "./bin/rails" ] && [ "${2}" == "server" ]; then
-  ./bin/rails db:prepare
-fi
-
-exec "${@}"
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "0x-excali",
+  "elements": [],
+  "appState": {
+    "gridSize": 20,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
